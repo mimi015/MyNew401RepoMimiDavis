@@ -12,8 +12,6 @@ public class DisplayScore : MonoBehaviour
     public Text textbox;
     public int score = 0;
 
-    public int health = 5;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +20,6 @@ public class DisplayScore : MonoBehaviour
         gameOver = false;
         won = false;
         score = 0;
-        health = 5;
     }
 
     // Update is called once per frame
@@ -35,15 +32,6 @@ public class DisplayScore : MonoBehaviour
             gameOver = true;
         }
 
-        if (health ==0)
-        {
-            gameOver = true;
-        }
-
-        if (won)
-            {
-                textbox.text = "You win!\nPress R to Try Again!";
-            }
         
         if (gameOver)
         {
