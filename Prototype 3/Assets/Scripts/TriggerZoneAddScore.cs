@@ -1,6 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+* Mimi Davis
+* TriggerZoneAddScore
+* Prototype3
+* Code makes the triggerzone add a score to the new text at the top of the scene
+*/
 
 public class TriggerZoneAddScore : MonoBehaviour
 {

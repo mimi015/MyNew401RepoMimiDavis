@@ -1,6 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+* Mimi Davis
+* PlayerController
+* Prototype3
+* Makes the player jump, has animation for running
+*/
 
 public class PlayerController : MonoBehaviour
 {

@@ -1,6 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+* Mimi Davis
+* RepeatBackground
+* Prototype3
+* Code made for background to repeat as it is moving left
+*/
 
 public class RepeatBackground : MonoBehaviour
 {

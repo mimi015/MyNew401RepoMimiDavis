@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+/*
+* Mimi Davis
+* UIManager
+* Prototype3
+* The code establishes the win and lose conditions
+*/
 
 public class UIManager : MonoBehaviour
 {

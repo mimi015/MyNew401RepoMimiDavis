@@ -1,6 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+* Mimi Davis
+* MoveLeft
+* Prototype3
+* Code makes objects and background move left
+*/
 
 public class MoveLeft : MonoBehaviour
 {

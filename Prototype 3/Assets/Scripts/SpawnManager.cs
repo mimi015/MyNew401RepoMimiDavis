@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+* Mimi Davis
+* SpawnManager
+* Prototype3
+* Code used to spawn the obstacle prefab
+*/
+
 public class SpawnManager : MonoBehaviour
 {
     public GameObject obstaclePrefab;
