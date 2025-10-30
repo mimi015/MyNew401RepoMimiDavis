@@ -2,31 +2,13 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {   
 
 	public int score; 
+	public GameObject pauseMenu;
 
 	private string CurrentLevelName = string.Empty;
-
-	#region This code makes this class Singleton
-	public static GameManager instance;
-
-	private void Awake()
-	{
-		if (instance == null)
-		{
-			instance = this; 
-			DontDestroyOnLoad(gameObject);
-		}
-		else 
-		{
-			Destroy(gameObject);
-			Debug.LogError("Trying to instantiate a second" + 
-				"instance of singleton Game Manager");
-		}
-	}
-	#endregion
 
 	public void LoadLevel(string levelName)
 	{
@@ -46,6 +28,27 @@ public class GameManager : MonoBehaviour
 		{
 			Debug.LogError("[GameManager] Unable to unload level " + levelName);
 			return;
+		}
+	}
+
+	//pausing and unpausing 
+	public void Pause()
+	{
+		Time.timeScale = 0f;
+		pauseMenu.SetActive(true);
+	}
+
+		public void Unpause()
+	{
+		Time.timeScale = 1f;
+		pauseMenu.SetActive(false);
+	}
+
+	private void Update()
+	{
+		if (Input.GetKeyDown(KeyCode.P))
+		{
+			Pause();
 		}
 	}
 }
