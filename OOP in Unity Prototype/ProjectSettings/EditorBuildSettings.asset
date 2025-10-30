@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ebc8d5805a52ae649b23194b98ad7cdc
+  - enabled: 1
+    path: Assets/Scenes/Third Person Character Swap.unity
+    guid: 9f36a2256e1162441b3931de2ec7c109
+  - enabled: 1
+    path: Assets/Scenes/First Person Character with Shoot With Raycasts.unity
+    guid: 5cd0354db026945439c53b36437c9eb2
+  - enabled: 1
     path: Assets/PolygonStarter/Scenes/Demo.unity
     guid: 5215016c20f88ea498985ac3e0ab4f9d
   m_configObjects: {}
