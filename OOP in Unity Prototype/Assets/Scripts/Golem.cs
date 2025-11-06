@@ -10,7 +10,7 @@ public class Golem : Enemy
     protected override void Awake()
     {
       base.Awake();
-      health = 120;  
+      health = 5;  
       GameManager.Instance.score += 2;
     }
 
@@ -27,5 +27,16 @@ public class Golem : Enemy
     public override void TakeDamage(int amount)
     {
         Debug.Log("You took" + amount + "points of damage!");
+
+        health -= amount;
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
     }
 }

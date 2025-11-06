@@ -31,6 +31,16 @@ public class GameManager : Singleton<GameManager>
 		}
 	}
 
+	public void UnloadCurrentLevel()
+	{
+		AsyncOperation ao = SceneManager.UnloadSceneAsync(CurrentLevelName);
+		if (ao == null)
+		{
+			Debug.LogError("[GameManager] Unable to unload level " + CurrentLevelName);
+			return;
+		}
+	}
+
 	//pausing and unpausing 
 	public void Pause()
 	{
