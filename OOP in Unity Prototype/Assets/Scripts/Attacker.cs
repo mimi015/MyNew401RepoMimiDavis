@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* Attacker
+* Assignment 6
+* Code for player to attack the IDamageable class
+*/
 public class Attacker : MonoBehaviour
 {
     public int attackDamage = 10;

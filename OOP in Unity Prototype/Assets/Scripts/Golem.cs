@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* Golem
+* Assignment 6
+* Code for player to attack the Golem subclass from Enemy
+*/
 public class Golem : Enemy
 {
     protected int damage;

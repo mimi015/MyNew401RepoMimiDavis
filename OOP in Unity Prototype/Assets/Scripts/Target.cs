@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* Target
+* Assignment 6
+* Code for target getting shot at taking damage and if health is below 0, it is destroyed
+*/
 public class Target : MonoBehaviour
 {
     public float health = 50f;    

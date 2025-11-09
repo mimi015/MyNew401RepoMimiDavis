@@ -1,7 +1,12 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+/*
+* Mimi Davis
+* GameManager
+* Assignment 6
+* Code for loading and unloading scenes and being able to pause 
+*/
 public class GameManager : Singleton<GameManager>
 {   
 

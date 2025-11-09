@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* Enemy
+* Assignment 6
+* Code for Enemy class
+*/
 public abstract class Enemy : MonoBehaviour, IDamageable
 {
     protected float speed;

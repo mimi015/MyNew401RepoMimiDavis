@@ -1,6 +1,11 @@
 using System.Collections;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* Weapon
+* Assignment 6
+* Code for Weapon that is unused in current game but gives damage bonus to enemies in Enemy base class
+*/
 public class Weapon : MonoBehaviour
 {
     

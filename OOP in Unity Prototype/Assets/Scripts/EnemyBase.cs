@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* EnemyBase
+* Assignment 6
+* Code for player to attack the IDamageable base class
+*/
 public abstract class EnemyBase : MonoBehaviour, IDamageable
 {
     [SerializeField] protected int health;

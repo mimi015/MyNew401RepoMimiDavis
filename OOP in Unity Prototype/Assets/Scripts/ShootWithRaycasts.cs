@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* ShootWithRaycasts
+* Assignment 6
+* Code for firing at target which makes them fly back and has particle effect when shooting
+*/
 public class ShootWithRaycasts : MonoBehaviour
 {
 

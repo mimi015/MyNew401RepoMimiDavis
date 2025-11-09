@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* Inventory
+* Assignment 6
+* Code for a base Inventory class 
+*/
 public class Inventory : MonoBehaviour
 {
     

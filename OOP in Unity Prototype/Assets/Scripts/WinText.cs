@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+/*
+* Mimi Davis
+* WinText
+* Assignment 6
+* Code for when the player gets to the end of Level 3, they get a "You Win!" text and allows them to restart that level
+*/
 public class WinText : MonoBehaviour
 {
     public Text textToDisplay; 

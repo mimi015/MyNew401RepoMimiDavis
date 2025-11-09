@@ -1,7 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* PlayerShooting
+* Assignment 6
+* Code for player to be able to destroy enemies from subclasses
+*/
 public class PlayerShooting : MonoBehaviour
 {
     public Camera playerCamera;
