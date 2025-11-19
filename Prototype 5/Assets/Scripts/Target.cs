@@ -1,6 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+* Mimi Davis
+* Prototype 5 
+* Code for targets you click on that spawn, when clicked on particles will show, and destroying them once out of line of sight
+*/
 
 public class Target : MonoBehaviour
 {

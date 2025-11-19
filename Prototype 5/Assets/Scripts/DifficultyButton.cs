@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+/*
+* Mimi Davis
+* Prototype 5 
+* Code for difficulty adjustment when hitting one of the buttons 
+*/
 public class DifficultyButton : MonoBehaviour
 {
     private Button button;

@@ -4,7 +4,11 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+/*
+* Mimi Davis
+* Prototype 5 
+* Code for spawning game objects, restarting the game with restart buttons, showing text when game over or title screen text
+*/
 public class GameManager : MonoBehaviour
 {
     public List<GameObject> targets;
