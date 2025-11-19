@@ -1,7 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* Prototype4
+* Code for rotating the camera with the A and D keys
+*/
 public class RotateCamera : MonoBehaviour
 {
     public float rotationSpeed;

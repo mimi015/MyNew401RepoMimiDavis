@@ -1,7 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
+/*
+* Mimi Davis
+* Prototype4
+* Code for the enemy balls to spawn alongside the powerups and displays win text after wave 10 and wave number
+*/
 public class SpawnManager : MonoBehaviour
 {
     public GameObject enemyPrefab;
@@ -9,11 +16,15 @@ public class SpawnManager : MonoBehaviour
     public int enemyCount;
     public int waveNumber = 1;
     public GameObject powerupPrefab;
+    public Text waveCounterText;
+    public Text winText;
+
     // Start is called before the first frame update
     void Start()
     {
        SpawnEnemyWave(waveNumber);
        SpawnPowerup(1);
+       waveCounterText.text = "Wave: 1";
     }
 
     private void SpawnEnemyWave(int enemiesToSpawn)
@@ -51,6 +62,16 @@ public class SpawnManager : MonoBehaviour
             waveNumber++;
             SpawnEnemyWave(waveNumber);
             SpawnPowerup(1);
+            waveCounterText.text = "Wave: " + waveNumber;
+        }
+
+        if (waveNumber >= 10)
+        {
+            winText.gameObject.SetActive(true);
+            if (winText.gameObject.activeSelf && Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
         }
     }
 }

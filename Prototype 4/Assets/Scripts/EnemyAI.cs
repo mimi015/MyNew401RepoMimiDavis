@@ -1,6 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+* Mimi Davis
+* Prototype4
+* Code for the enemy AI to follow the player
+*/
 
 public class EnemyAI : MonoBehaviour
 {   

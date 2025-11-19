@@ -1,7 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+* Mimi Davis
+* Prototype4
+* Code for player movement and powerup usage
+*/
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody playerRb;
