@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 /*
 * Mimi Davis
+* DifficultyButton
 * Prototype 5 
 * Code for difficulty adjustment when hitting one of the buttons 
 */

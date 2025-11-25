@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 /*
 * Mimi Davis
+* GameManager
 * Prototype 5 
 * Code for spawning game objects, restarting the game with restart buttons, showing text when game over or title screen text
 */
